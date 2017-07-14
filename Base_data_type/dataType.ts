@@ -49,3 +49,21 @@ console.log(c);*/
 enum Color {Red = 1,Green,Blue}
 let colorName: string = Color[2];
 alert(colorName);
+
+//任意值any
+ let notSure: any = 4;
+ //notSure.ifItExists();
+ notSure.toFixed();
+
+ let prettySure: Object = 4;
+ //prettySure.toFixed();
+
+ let list1: any[] = [1,true,"free"];
+ list1[1] = 100;
+ console.info(list1);
+
+//空值
+function warnUser(): void{
+  alert('this is a empty function');
+}
+let unusable: void = undefined;

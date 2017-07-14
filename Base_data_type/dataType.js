@@ -46,3 +46,17 @@ var Color;
 })(Color || (Color = {}));
 var colorName = Color[2];
 alert(colorName);
+//任意值any
+var notSure = 4;
+//notSure.ifItExists();
+notSure.toFixed();
+var prettySure = 4;
+//prettySure.toFixed();
+var list1 = [1, true, "free"];
+list1[1] = 100;
+console.info(list1);
+//空值
+function warnUser() {
+    alert('this is a empty function');
+}
+var unusable = undefined;
